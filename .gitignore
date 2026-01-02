@@ -1,0 +1,81 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+
+# Данные и результаты (но оставляем директории)
+data/*.csv
+data/*.pkl
+data/*.zip
+results/*.txt
+results/*.md
+results/*.csv
+plots/*.png
+plots/*.html
+models/*.pkl
+models/*.h5
+models/*.keras
+
+# Системные файлы
+.DS_Store
+Thumbs.db
+*.log
+
+# Временные файлы
+*.tmp
+*.bak
+*.swp
+*~
+
+# Ignore Gradle project-specific cache directory
+.gradle
+.idea
+.claude
+
+# Ignore Gradle build output directory
+build
+/logs
+/app/logs
+/.kotlin/errors
+/.kotlin
+/.idea
+/.PVS-Studio
+.DS_Store
+
+# Environment variables - DO NOT COMMIT
+env.dev
+env.prod
+.env
+.env.local
+.env.development
+.env.production
